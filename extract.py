@@ -63,7 +63,7 @@ class PerfilesMongoExtractor:
             db = cliente[self.db_name]
             coleccion = db[self.collection_name]
             
-            # Omisión del id interno de Mongo para evitar conflictos con Pandas
+            # Omisión del id interno de Mongo para evitar conflictos con Pandas.
             datos = list(coleccion.find({}, {"_id": 0}))
             df_perfiles = pd.DataFrame(datos)
             
