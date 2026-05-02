@@ -1,5 +1,6 @@
-# creacion del script mock_data para generar los datos de ventas e inventario (datos "sucios").
-
+# mock_data.py - Script para generar datos de prueba para el pipeline de análisis
+# Este script crea una base de datos SQLite con una tabla de ventas históricas y un archivo CSV de inventario, inyectando inconsistencias como fechas en formatos mixtos, duplicados y valores nulos para simular un entorno realista de datos sucios.
+# Se utiliza la librería logging para mostrar mensajes informativos sobre el progreso de la generación de datos, incluyendo detalles sobre la cantidad de registros generados, duplicados y nulos inyectados, y las rutas de los archivos creados. Este script es esencial para preparar un entorno de prueba robusto para el desarrollo y validación del pipeline de datos en el proyecto de análisis global de retail y comportamiento del cliente.
 import pandas as pd
 import numpy as np
 import sqlite3
@@ -7,12 +8,11 @@ import random
 from datetime import datetime, timedelta
 import logging
 
+# Configuración del logging para mostrar mensajes informativos con timestamps
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 
 def generar_ventas_sql(db_path: str = 'ventas_historicas.sqlite', num_records: int = 5000):
-    
     """Genera la tabla SQL de ventas con fechas en formatos inconsistentes."""
-    
     logging.info(f"Generando {num_records} registros de ventas SQL...")
     
     # Generación de datos base.
@@ -23,7 +23,7 @@ def generar_ventas_sql(db_path: str = 'ventas_historicas.sqlite', num_records: i
         'id_tienda': [random.randint(1, 50) for _ in range(num_records)]
     }
     
-    # Generar fechas inconsistentes (mezclando formatos YYYY-MM-DD y DD/MM/YYYY).
+    # Genera fechas inconsistentes (mezclando formatos YYYY-MM-DD y DD/MM/YYYY).
     fechas = []
     base_date = datetime(2023, 1, 1)
     for _ in range(num_records):
@@ -35,7 +35,8 @@ def generar_ventas_sql(db_path: str = 'ventas_historicas.sqlite', num_records: i
         else:
             # Formato Día/Mes/Año
             fechas.append(fecha_obj.strftime('%d/%m/%Y')) 
-            
+    
+    # Agregar las fechas al DataFrame.        
     data['fecha'] = fechas
     df_ventas = pd.DataFrame(data)
     
@@ -55,6 +56,7 @@ def generar_inventario_csv(file_path: str = 'inventario.csv', num_records: int =
         'stock': [random.randint(0, 500) for _ in range(num_records)],
         'precio_unitario': [round(random.uniform(10.0, 1000.0), 2) for _ in range(num_records)]
     }
+    # Crea el DataFrame.
     df_inventario = pd.DataFrame(data)
     
     # Inyección del 5% de datos duplicados.

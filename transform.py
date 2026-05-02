@@ -1,5 +1,7 @@
-# fase de transformación: limpieza, enriquecimiento y analisis avanzado (PCA).
-
+# transform.py - Módulo central para la limpieza, enriquecimiento y análisis avanzado de datos en el proyecto de análisis global de retail y comportamiento del cliente.
+# Este módulo define la clase DataTransformer, que contiene métodos para limpiar datos sucios, enriquecerlos con información adicional, aplicar reglas de negocio complejas, y ejecutar análisis avanzados como el análisis de componentes principales (PCA).
+# Se utilizan librerías como Pandas para la manipulación de datos, NumPy para operaciones numéricas, y Scikit-learn para la normalización y el PCA. 
+# El módulo también incluye logging para mostrar mensajes informativos sobre el progreso de cada etapa del proceso de transformación, facilitando la depuración y el seguimiento del pipeline de datos.
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import MinMaxScaler
@@ -10,14 +12,10 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class DataTransformer:
-    
     """ Clase central para la limpieza, enriquecimiento y análisis avanzado de datos.
     Aplica transformaciones de Pandas, reglas de negocio y algoritmos de Machine Learning (PCA). """
-
     def limpiar_datos(self, df_ventas: pd.DataFrame, df_inventario: pd.DataFrame) -> tuple:
-        
         """ Limpia duplicados y nulos, y normaliza strings y fechas. """
-        
         logging.info("Iniciando fase de limpieza de datos...")
         
         # Limpieza de SQL (Ventas): Eliminando duplicados basados en id_transaccion.
@@ -26,7 +24,7 @@ class DataTransformer:
         # Normalización de fechas a datetime64.
         ventas_limpias['fecha'] = pd.to_datetime(ventas_limpias['fecha'], errors='coerce')
         
-        # 2. Limpieza de CSV (Inventario): Detectar y tratar nulos.
+        # Limpieza de CSV (Inventario): Detectar y tratar nulos.
         inventario_limpio = df_inventario.drop_duplicates().copy()
         # Rellenamos el stock nulo con 0 y el precio_unitario con la mediana.
         inventario_limpio['stock'] = inventario_limpio['stock'].fillna(0)
@@ -42,14 +40,13 @@ class DataTransformer:
                 .str.strip()
                 .replace({'mex': 'méxico', 'mx': 'méxico'})
             )
-            
+        
+        # Log de resumen de limpieza.
         logging.info("Limpieza completada. Fechas convertidas a datetime64.")
         return ventas_limpias, inventario_limpio
 
     def enriquecer_datos(self, df_ventas: pd.DataFrame, df_perfiles: pd.DataFrame) -> pd.DataFrame:
-        
         """ Realiza un Left Join entre las ventas y los perfiles de usuario. """
-        
         logging.info("Realizando Left Join entre Ventas y Perfiles...")
         # nos aseguramos de que la llave de cruce tenga el mismo nombre en ambos DataFrames.
         if 'id_cliente' in df_perfiles.columns:
@@ -61,9 +58,7 @@ class DataTransformer:
         return df_master
 
     def aplicar_reglas_negocio(self, df_master: pd.DataFrame) -> pd.DataFrame:
-        
         """ Crea la columna segmento_cliente utilizando np.where. """
-        
         logging.info("Aplicando reglas de negocio complejas con np.where...")
         
         # Si la edad no existe (nula por el left join), le ponemos un valor por defecto temporal.
@@ -72,17 +67,17 @@ class DataTransformer:
         # Regla: Si gasto > 1000 y edad < 30 -> "Premium Joven", sino "Regular".
         condicion_premium = (df_master['monto'] > 1000) & (df_master['edad_temp'] < 30)
         
+        # Creamos la nueva columna segmento_cliente basada en la condición.
         df_master['segmento_cliente'] = np.where(condicion_premium, "Premium Joven", "Regular")
         # Limpieza final: eliminamos la columna temporal de edad.
         df_master.drop(columns=['edad_temp'], inplace=True) 
         
+        # Log de resumen de reglas aplicadas.
         logging.info("Segmentación de clientes aplicada exitosamente.")
         return df_master
 
     def ejecutar_pca(self, df_master: pd.DataFrame) -> tuple:
-        
         """ Aplica Análisis de Componentes Principales (PCA) sobre las features numéricas. """
-        
         logging.info("Iniciando Análisis Avanzado (PCA)...")
         
         # Seleccionar variables numéricas (simulamos que hay 20 columnas numéricas de comportamiento).
@@ -95,7 +90,7 @@ class DataTransformer:
         # El PCA no soporta nulos, así que los rellenamos con 0 o mediana según corresponda.
         df_features = df_master[features].fillna(0) 
         
-        # 2. Normalización Min-Max (Requisito clave para no sesgar el modelo).
+        # Normalización Min-Max (Requisito clave para no sesgar el modelo).
         scaler = MinMaxScaler()
         datos_escalados = scaler.fit_transform(df_features)
         # se redujeron a 3 features para facilitar la visualizacion y la interpretación.
@@ -108,6 +103,7 @@ class DataTransformer:
         varianza_explicada = pca.explained_variance_ratio_
         varianza_total = sum(varianza_explicada) * 100
         
+        # Log de resumen del PCA.
         logging.info(f"PCA completado. Se redujeron {len(features)} dimensiones a {n_components}.")
         logging.info(f"Varianza explicada por componente: {varianza_explicada}")
         logging.info(f"Los componentes capturan el {varianza_total:.2f}% de la varianza total.")
