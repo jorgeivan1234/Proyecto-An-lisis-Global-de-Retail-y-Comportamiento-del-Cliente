@@ -8,12 +8,8 @@ matplotlib
 seaborn
 plotly
 pyarrow
+openpyxl
+lxml
 
-para pruebas usando python
-python -m pip install pandas numpy scikit-learn requests beautifulsoup4 pymongo matplotlib seaborn plotly pyarrow
-
-para pruebas en terminal
-pip install pandas numpy scikit-learn requests beautifulsoup4 pymongo matplotlib seaborn plotly pyarrow
-
-para pruebas usando python 3
-python3 -m pip install pandas numpy scikit-learn requests beautifulsoup4 pymongo matplotlib seaborn plotly pyarrow
+para pruebas en entorno virtual:
+pip install pandas numpy scikit-learn requests beautifulsoup4 pymongo matplotlib seaborn plotly pyarrow openpyxl lxml
