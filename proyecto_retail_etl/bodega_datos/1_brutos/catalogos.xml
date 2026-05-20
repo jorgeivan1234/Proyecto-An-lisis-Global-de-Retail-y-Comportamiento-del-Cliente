@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<catalogos>
+	<categoria nombre="Tecnología">
+		<descripcion>Electrónica y gadgets de consumo.</descripcion>
+		<margen_ganancia_esperado>15%</margen_ganancia_esperado>
+		<responsable_area>Ana G.</responsable_area>
+		<nivel_prioridad>Alta</nivel_prioridad>
+	</categoria>
+	<categoria nombre="Hogar">
+		<descripcion>Muebles, decoración y electrodomésticos.</descripcion>
+		<margen_ganancia_esperado>25%</margen_ganancia_esperado>
+		<responsable_area>Carlos M.</responsable_area>
+		<nivel_prioridad>Media</nivel_prioridad>
+	</categoria>
+	<categoria nombre="Moda">
+		<descripcion>Prendas de vestir y accesorios de temporada.</descripcion>
+		<margen_ganancia_esperado>40%</margen_ganancia_esperado>
+		<responsable_area>Sofía R.</responsable_area>
+		<nivel_prioridad>Alta</nivel_prioridad>
+	</categoria>
+	<categoria nombre="Deportes">
+		<descripcion>Ropa y equipo para actividades físicas.</descripcion>
+		<margen_ganancia_esperado>30%</margen_ganancia_esperado>
+		<responsable_area>Luis F.</responsable_area>
+		<nivel_prioridad>Media</nivel_prioridad>
+	</categoria>
+</catalogos>

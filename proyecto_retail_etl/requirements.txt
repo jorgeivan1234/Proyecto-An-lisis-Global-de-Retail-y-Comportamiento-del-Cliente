@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+requests
+beautifulsoup4
+pymongo
+matplotlib
+seaborn
+plotly
+pyarrow
+openpyxl
+lxml
+
+para pruebas en entorno virtual:
+pip install pandas numpy scikit-learn requests beautifulsoup4 pymongo matplotlib seaborn plotly pyarrow openpyxl lxml
