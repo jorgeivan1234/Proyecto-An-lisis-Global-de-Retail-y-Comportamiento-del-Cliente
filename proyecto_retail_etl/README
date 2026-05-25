@@ -1,0 +1,75 @@
++-----------------------------------------------------------------------------+
+|                                FUENTES DE ORIGEN                            |
+|                                                                             |
+|  [ SQLite ] ----------> Ventas Históricas (Transaccional Relacional)        |
+|  [ MongoDB / JSON ] --> Perfiles de Usuarios (No Relacional / Respaldo)     |
+|  [ Web Logs .txt ] ---> Accesos de Servidor (Procesado vía Regex)           |
+|  [ Web Scraping ] ----> Precios de Competencia (HTML Scrapeado vía BS4)     |
+|  [ API REST ] --------> Divisas Mundiales (Tipos de Cambio en Tiempo Real)  |
++-----------------------------------------------------------------------------+
+|
+v  (Ingesta e Integración)
++-----------------------------------------------------------------------------+
+|                            MOTOR ETL CENTRAL (orquestador.py)               |
+|                                                                             |
+|  1. Extracción Incremental e Inyección Paramétrica de Dependencias.         |
+|  2. Limpieza de Datos (Deduplicación, Tratamiento de Nulos y Tipos).        |
+|  3. Reglas de Negocio (Conversión USD vía API, Imputación de Scraper).      |
+|  4. Enriquecimiento Estadístico (Escalado Min-Max + Modelado PCA 3D).       |
++-----------------------------------------------------------------------------+
+|
+v  (Carga y Almacenamiento)
++-----------------------------------------------------------------------------+
+|                             DESTINOS Y CAPA ANALÍTICA                       |
+|                                                                             |
+|  --> BODEGA DE DATOS: Exportación óptima en formato Parquet (.parquet)      |
+|  --> ANALÍTICA Y BI:  Dashboards Interactivos (Sankey, Boxplots, PCA 3D)    |
++-----------------------------------------------------------------------------+
+
+------------------------------------------------------------------------------------------------------------
+
+## Diccionario de Datos (para Archivo Maestro Final)
+
+La tabla consolidada final integrada en el archivo `data_master.parquet` contiene las siguientes variables de negocio enriquecidas:
+
+| Variable | Tipo de Dato | Origen / Regla de Negocio Aplicada |
+| :--- | :--- | :--- |
+| **id_venta** | Integer (PK) | Base de datos SQLite (`ventas`). Identificador único de transacción. |
+| **fecha_transaccion**| Datetime | Base de datos SQLite. Estampa de tiempo de la compra. |
+| **metodo_pago** | String | Base de datos SQLite. Canal de pago (Tarjeta, Efectivo, Transferencia). |
+| **id_cliente** | Integer (FK) | Llave de cruce relacional entre transacciones y perfiles de usuario. |
+| **nombre_completo** | String | MongoDB / JSON. Nombre limpio sin caracteres especiales. |
+| **edad** | Integer | MongoDB / JSON. Edad biológica del cliente. |
+| **ciudad** | String | MongoDB / JSON. Ubicación demográfica del consumidor. |
+| **segmento_cliente** | String | MongoDB / JSON. Perfil comercial (Hogar, Tecnófilo, Moda, etc.). |
+| **segmento_edad** | String | Derivado. Segmentación etaria calculada mediante discretización(*Binning*). |
+| **nivel_fidelidad** | String | MongoDB / JSON. Nivel de lealtad asignado (Bronce, Plata, Oro). |
+| **nombre_producto** | String | Catálogo CSV (`inventario.csv`). Nombre comercial del artículo. |
+| **categoria** | String | Catálogo CSV. Categoría de mercado del producto. |
+| **monto_usd** | Float | Calculado. Monto de venta convertido a USD (`monto_mxn` / Tasa de cambio API). |
+| **ticket_alto** | Binary (0/1) | Derivado. Indicador de valor (1 si supera el percentil 85 de ventas, 0 si no). |
+| **precio_competencia**| Float | Web Scraping. Precio en la competencia. Si es nulo por límite del Scraper (50-100), se autocompleta con el precio propio para estabilidad estadística. |
+| **codigo_estado** | Integer | Web Logs. Código HTTP de respuesta del servidor web extraído usando Regex. |
+| **PC1, PC2, PC3** | Float | Machine Learning. Componentes Principales estadísticos generados mediante PCA tras aplicar normalización de escalas. |
+
+------------------------------------------------------------------------------------------------------------
+
+## Requisitos e Instalación
+
+Este entorno de producción ha sido empaquetado para evitar conflictos de software y facilitar una instalación limpia por parte del evaluador.
+
+### Requisitos Previos
+* Python 3.9 o superior instalado de forma local.
+
+### Comandos de Instalación Rápidos
+Abre tu terminal en la raíz de la carpeta del proyecto y ejecuta el siguiente bloque:
+
+```bash
+# 1. Instalar todas las dependencias requeridas de un solo golpe
+pip install -r requirements.txt
+
+# 2. Inicializar la simulación de bases de datos y archivos base
+python simulador_datos.py
+
+# 3. Ejecutar el pipeline ETL completo y generar las visualizaciones analíticas
+python orquestador.py
