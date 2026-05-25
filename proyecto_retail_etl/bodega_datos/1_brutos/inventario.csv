@@ -1,37 +1,832 @@
 id_producto,nombre_producto,categoria,precio_unitario,stock_actual
-1,Laptop gamer,Tecnología,16999.0,100
-2,Jaifon X,Tecnología,9800.0,423
-3,Auriculares Bluetooth,Tecnología,100.0,288
-4,"Monitor 27""",Tecnología,5500.0,252
-5,XBOX SERIES X,Tecnología,12980.0,197
-6,Cargador tipo C,Tecnología,150.0,141
-7,Smartwatch Deportivo,Tecnología,1200.0,247
-8,Teclado Mecánico,Tecnología,750.0,61
-9,Mouse Inalámbrico,Tecnología,350.0,218
-10,Audifonos para Computadora,Tecnología,1180.0,65
-11,Sofá 3 Plazas,Hogar,6500.0,173
-12,Cafetera Espresso,Hogar,2350.0,454
-13,Lámpara de Pie,Hogar,450.0,28
-14,Set de Sartenes,Hogar,4090.0,90
-15,Colchón King Size,Hogar,10999.0,274
-16,Comedor,Hogar,7890.0,402
-17,Juego de Toallas,Hogar,250.0,209
-18,"Ganchos para ropa ""paquete de 10 pzs""",Hogar,150.0,54
-19,Chaqueta de Cuero,Moda,1890.0,92
-20,Zapatillas Running,Moda,900.0,260
-21,Reloj Clásico,Moda,850.0,196
-22,Pantalón Denim,Moda,170.0,391
-23,Vestido de Fiesta,Moda,550.0,127
-24,Bolso de Mano,Moda,800.0,104
-25,Gafas de Sol,Moda,400.0,313
-26,Cinturón de Piel,Moda,100.0,87
-27,Camisa Polo,Moda,200.0,397
-28,Set de Ropa Interior,Moda,80.0,31
-29,Bicicleta de Montaña,Deportes,9500.0,19
-30,Set de Mancuernas,Deportes,1500.0,347
-31,Tienda de Campaña,Deportes,3450.0,443
-32,Tapete de Yoga,Deportes,150.0,163
-33,Balón de Fútbol Oficial,Deportes,300.0,330
-34,Zapatillas de Baloncesto,Deportes,1200.0,112
-35,Reloj GPS para Correr,Deportes,2200.0,97
-36,Raqueta de Tenis,Deportes,800.0,211
+497,Bicicleta de Montaña Gen 14,Deportes,10483.11,366.0
+709,Gafas de Sol Gen 20,Moda,454.4,161.0
+182,Jaifon X Gen 6,Tecnología,10179.36,174.0
+588,Cafetera Espresso Gen 17,Hogar,2016.54,253.0
+12,Cafetera Espresso,Hogar,2260.77,349.0
+276,Bolso de Mano Gen 8,Moda,868.95,294.0
+616,"Monitor 27"" Gen 18",Tecnología,4888.04,197.0
+72,Raqueta de Tenis Gen 2,Deportes,839.59,484.0
+409,Lámpara de Pie Gen 12,Hogar,467.4,122.0
+375,Colchón King Size Gen 11,Hogar,12122.8,
+543,Auriculares Bluetooth Gen 16,Tecnología,104.44,458.0
+323,Reloj GPS para Correr Gen 9,,2187.62,59.0
+667,Chaqueta de Cuero Gen 19,Moda,1943.51,288.0
+532,Set de Ropa Interior Gen 15,Moda,80.11,406.0
+117,Mouse Inalámbrico Gen 4,Tecnología,325.06,293.0
+662,Set de Sartenes Gen 19,Hogar,3556.26,150.0
+729,Mouse Inalámbrico Gen 21,Tecnología,393.32,200.0
+81,Mouse Inalámbrico Gen 3,Tecnología,391.06,63.0
+536,Tapete de Yoga Gen 15,Deportes,152.78,197.0
+156,Cafetera Espresso Gen 5,Hogar,2483.85,493.0
+26,Cinturón de Piel,Moda,100.28,255.0
+245,Bicicleta de Montaña Gen 7,Deportes,9406.21,
+367,Smartwatch Deportivo Gen 11,Tecnología,1240.73,302.0
+70,Zapatillas de Baloncesto Gen 2,Deportes,1230.43,
+51,Colchón King Size Gen 2,,9485.04,88.0
+510,Cargador tipo C Gen 15,Tecnología,156.4,
+712,Set de Ropa Interior Gen 20,,83.83,475.0
+168,Bolso de Mano Gen 5,Moda,894.21,239.0
+656,Teclado Mecánico Gen 19,Tecnología,781.3,235.0
+95,Vestido de Fiesta Gen 3,Moda,628.71,207.0
+139,Tienda de Campaña Gen 4,Deportes,3695.17,
+252,Raqueta de Tenis Gen 7,Deportes,887.06,240.0
+146,Jaifon X Gen 5,Tecnología,9047.11,251.0
+137,Bicicleta de Montaña Gen 4,Deportes,8642.41,127.0
+685,Laptop gamer Gen 20,Tecnología,17693.99,10.0
+54,"Ganchos para ropa ""paquete de 10 pzs"" Gen 2",Hogar,163.69,183.0
+287,Reloj GPS para Correr Gen 8,Deportes,2013.08,355.0
+621,Mouse Inalámbrico Gen 18,Tecnología,392.76,63.0
+450,"Ganchos para ropa ""paquete de 10 pzs"" Gen 13",Hogar,163.61,328.0
+126,"Ganchos para ropa ""paquete de 10 pzs"" Gen 4",Hogar,151.62,140.0
+747,Camisa Polo Gen 21,Moda,178.2,104.0
+154,Audifonos para Computadora Gen 5,Tecnología,1052.61,180.0
+655,Smartwatch Deportivo Gen 19,Tecnología,1244.3,183.0
+666,"Ganchos para ropa ""paquete de 10 pzs"" Gen 19",Hogar,169.03,305.0
+733,Lámpara de Pie Gen 21,Hogar,490.21,
+262,Audifonos para Computadora Gen 8,Tecnología,1192.65,88.0
+710,Cinturón de Piel Gen 20,Moda,91.36,205.0
+157,Lámpara de Pie Gen 5,Hogar,471.1,25.0
+631,Chaqueta de Cuero Gen 18,Moda,1951.04,454.0
+286,Zapatillas de Baloncesto Gen 8,Deportes,1127.2,370.0
+691,Smartwatch Deportivo Gen 20,Tecnología,1150.34,
+112,"Monitor 27"" Gen 4",Tecnología,4991.53,45.0
+309,Reloj Clásico Gen 9,Moda,778.48,217.0
+71,Reloj GPS para Correr Gen 2,Deportes,2119.59,398.0
+771,Colchón King Size Gen 22,Hogar,11340.18,66.0
+330,Cargador tipo C Gen 10,Tecnología,152.19,462.0
+665,Juego de Toallas Gen 19,Hogar,247.08,179.0
+195,Colchón King Size Gen 6,,10800.48,360.0
+630,"Ganchos para ropa ""paquete de 10 pzs"" Gen 18",Hogar,138.16,243.0
+296,Teclado Mecánico Gen 9,Tecnología,734.45,93.0
+578,Jaifon X Gen 17,Tecnología,8570.45,485.0
+131,Vestido de Fiesta Gen 4,Moda,629.55,241.0
+568,Set de Ropa Interior Gen 16,Moda,87.86,63.0
+94,Pantalón Denim Gen 3,Moda,189.98,327.0
+362,Jaifon X Gen 11,Tecnología,8827.84,261.0
+701,Juego de Toallas Gen 20,Hogar,255.07,420.0
+47,Sofá 3 Plazas Gen 2,Hogar,5686.28,182.0
+130,Pantalón Denim Gen 4,Moda,186.28,315.0
+237,Reloj Clásico Gen 7,Moda,743.9,63.0
+569,Bicicleta de Montaña Gen 16,Deportes,8780.9,93.0
+365,XBOX SERIES X Gen 11,Tecnología,11175.12,
+124,Comedor Gen 4,Hogar,8773.02,247.0
+456,Bolso de Mano Gen 13,Moda,737.49,254.0
+59,Vestido de Fiesta Gen 2,Moda,486.65,12.0
+311,Vestido de Fiesta Gen 9,Moda,622.11,113.0
+115,Smartwatch Deportivo Gen 4,Tecnología,1309.2,437.0
+415,Chaqueta de Cuero Gen 12,Moda,1713.4,362.0
+65,Bicicleta de Montaña Gen 2,Deportes,8633.11,475.0
+64,Set de Ropa Interior Gen 2,Moda,68.54,92.0
+344,Zapatillas Running Gen 10,Moda,951.88,15.0
+350,Cinturón de Piel Gen 10,Moda,110.97,440.0
+608,Tapete de Yoga Gen 17,Deportes,168.45,23.0
+5,XBOX SERIES X,Tecnología,11445.52,
+150,Cargador tipo C Gen 5,Tecnología,132.45,490.0
+603,Camisa Polo Gen 17,Moda,223.62,351.0
+753,Balón de Fútbol Oficial Gen 21,Deportes,312.12,377.0
+633,Reloj Clásico Gen 18,Moda,918.82,417.0
+485,Juego de Toallas Gen 14,Hogar,261.85,146.0
+153,Mouse Inalámbrico Gen 5,Tecnología,311.01,130.0
+270,"Ganchos para ropa ""paquete de 10 pzs"" Gen 8",Hogar,138.65,464.0
+213,Balón de Fútbol Oficial Gen 6,Deportes,318.75,38.0
+507,Auriculares Bluetooth Gen 15,Tecnología,105.88,279.0
+587,Sofá 3 Plazas Gen 17,Hogar,7337.92,
+122,Set de Sartenes Gen 4,Hogar,4169.36,430.0
+792,Raqueta de Tenis Gen 22,Deportes,834.66,485.0
+549,Mouse Inalámbrico Gen 16,Tecnología,310.54,71.0
+164,Zapatillas Running Gen 5,Moda,909.27,164.0
+396,Raqueta de Tenis Gen 11,Deportes,703.06,412.0
+471,Auriculares Bluetooth Gen 14,Tecnología,102.25,393.0
+479,Sofá 3 Plazas Gen 14,Hogar,7020.63,42.0
+332,Teclado Mecánico Gen 10,Tecnología,727.98,135.0
+703,Chaqueta de Cuero Gen 20,Moda,1860.97,166.0
+521,Juego de Toallas Gen 15,Hogar,226.97,319.0
+492,Bolso de Mano Gen 14,Moda,687.08,45.0
+325,Laptop gamer Gen 10,Tecnología,19176.4,361.0
+393,Balón de Fútbol Oficial Gen 11,Deportes,314.93,426.0
+3,Auriculares Bluetooth,Tecnología,92.12,31.0
+693,Mouse Inalámbrico Gen 20,Tecnología,324.25,
+790,Zapatillas de Baloncesto Gen 22,Deportes,1155.17,116.0
+380,Zapatillas Running Gen 11,Moda,830.93,114.0
+376,Comedor Gen 11,Hogar,7451.87,
+498,Set de Mancuernas Gen 14,Deportes,1480.38,308.0
+422,Cinturón de Piel Gen 12,Moda,103.48,195.0
+249,Balón de Fútbol Oficial Gen 7,Deportes,298.26,269.0
+629,Juego de Toallas Gen 18,Hogar,230.05,
+429,Balón de Fútbol Oficial Gen 12,Deportes,297.61,355.0
+161,Juego de Toallas Gen 5,,256.79,459.0
+243,Camisa Polo Gen 7,Moda,186.27,437.0
+386,Cinturón de Piel Gen 11,Moda,85.66,245.0
+780,Bolso de Mano Gen 22,Moda,680.68,225.0
+6,Cargador tipo C,Tecnología,130.85,337.0
+646,Zapatillas de Baloncesto Gen 18,Deportes,1139.15,244.0
+329,XBOX SERIES X Gen 10,Tecnología,12819.87,297.0
+193,Lámpara de Pie Gen 6,Hogar,503.7,
+434,Jaifon X Gen 13,Tecnología,8663.05,
+593,Juego de Toallas Gen 17,Hogar,251.81,487.0
+219,Auriculares Bluetooth Gen 7,Tecnología,94.38,67.0
+15,Colchón King Size,Hogar,11612.75,102.0
+373,Lámpara de Pie Gen 11,Hogar,491.4,145.0
+272,Zapatillas Running Gen 8,Moda,887.13,439.0
+41,XBOX SERIES X Gen 2,Tecnología,14875.67,77.0
+702,"Ganchos para ropa ""paquete de 10 pzs"" Gen 20",Hogar,165.85,436.0
+147,Auriculares Bluetooth Gen 5,Tecnología,92.19,144.0
+234,"Ganchos para ropa ""paquete de 10 pzs"" Gen 7",Hogar,162.46,376.0
+295,Smartwatch Deportivo Gen 9,Tecnología,1314.31,20.0
+698,Set de Sartenes Gen 20,Hogar,4184.28,38.0
+271,Chaqueta de Cuero Gen 8,Moda,2061.45,323.0
+605,Bicicleta de Montaña Gen 17,Deportes,8439.52,123.0
+499,Tienda de Campaña Gen 14,Deportes,3497.37,19.0
+28,Set de Ropa Interior,Moda,75.62,80.0
+267,Colchón King Size Gen 8,Hogar,10186.02,374.0
+160,Comedor Gen 5,Hogar,8792.66,208.0
+701,Juego de Toallas Gen 20,Hogar,255.07,420.0
+579,Auriculares Bluetooth Gen 17,Tecnología,86.96,240.0
+223,Smartwatch Deportivo Gen 7,Tecnología,1024.77,349.0
+158,Set de Sartenes Gen 5,Hogar,4424.66,171.0
+654,Cargador tipo C Gen 19,Tecnología,145.33,147.0
+645,Balón de Fútbol Oficial Gen 18,Deportes,262.15,
+366,Cargador tipo C Gen 11,Tecnología,155.84,175.0
+225,Mouse Inalámbrico Gen 7,Tecnología,357.48,402.0
+572,Tapete de Yoga Gen 16,Deportes,129.2,128.0
+443,Sofá 3 Plazas Gen 13,Hogar,7231.64,373.0
+651,Auriculares Bluetooth Gen 19,Tecnología,111.35,39.0
+131,Vestido de Fiesta Gen 4,Moda,629.55,241.0
+36,Raqueta de Tenis,Deportes,756.03,69.0
+11,Sofá 3 Plazas,Hogar,5631.63,437.0
+692,Teclado Mecánico Gen 20,Tecnología,817.52,62.0
+602,Cinturón de Piel Gen 17,Moda,105.91,108.0
+589,Lámpara de Pie Gen 17,Hogar,391.14,460.0
+584,Teclado Mecánico Gen 17,Tecnología,803.8,369.0
+265,Lámpara de Pie Gen 8,Hogar,515.22,171.0
+551,Sofá 3 Plazas Gen 16,Hogar,6103.34,466.0
+377,Juego de Toallas Gen 11,Hogar,223.7,133.0
+544,"Monitor 27"" Gen 16",Tecnología,5669.75,77.0
+641,Bicicleta de Montaña Gen 18,Deportes,9826.01,148.0
+45,Mouse Inalámbrico Gen 2,Tecnología,307.57,323.0
+240,Bolso de Mano Gen 7,Moda,684.62,243.0
+125,Juego de Toallas Gen 4,,275.51,464.0
+135,Camisa Polo Gen 4,Moda,223.72,114.0
+207,Camisa Polo Gen 6,Moda,173.08,369.0
+241,Gafas de Sol Gen 7,Moda,359.54,365.0
+82,Audifonos para Computadora Gen 3,Tecnología,1249.66,57.0
+518,Set de Sartenes Gen 15,Hogar,4683.04,165.0
+694,Audifonos para Computadora Gen 20,Tecnología,1145.85,
+27,Camisa Polo,Moda,196.34,196.0
+458,Cinturón de Piel Gen 13,Moda,109.18,136.0
+773,Juego de Toallas Gen 22,Hogar,216.08,243.0
+201,Reloj Clásico Gen 6,Moda,869.23,355.0
+50,Set de Sartenes Gen 2,Hogar,4127.87,395.0
+664,Comedor Gen 19,Hogar,7985.26,35.0
+268,Comedor Gen 8,Hogar,7850.89,306.0
+187,Smartwatch Deportivo Gen 6,Tecnología,1020.3,50.0
+414,"Ganchos para ropa ""paquete de 10 pzs"" Gen 12",Hogar,134.02,428.0
+751,Tienda de Campaña Gen 21,Deportes,3001.34,443.0
+617,XBOX SERIES X Gen 18,,13850.89,271.0
+611,Reloj GPS para Correr Gen 17,Deportes,2258.13,246.0
+548,Teclado Mecánico Gen 16,Tecnología,859.16,108.0
+475,Smartwatch Deportivo Gen 14,Tecnología,1078.64,247.0
+501,Balón de Fútbol Oficial Gen 14,Deportes,328.78,236.0
+705,Reloj Clásico Gen 20,Moda,822.55,380.0
+271,Chaqueta de Cuero Gen 8,Moda,2061.45,323.0
+684,Raqueta de Tenis Gen 19,Deportes,715.49,500.0
+637,Gafas de Sol Gen 18,Moda,372.07,379.0
+208,Set de Ropa Interior Gen 6,Moda,75.68,194.0
+277,Gafas de Sol Gen 8,Moda,423.98,48.0
+658,Audifonos para Computadora Gen 19,Tecnología,1173.01,108.0
+428,Tapete de Yoga Gen 12,Deportes,159.92,
+104,Tapete de Yoga Gen 3,Deportes,161.07,458.0
+246,Set de Mancuernas Gen 7,Deportes,1426.24,218.0
+711,Camisa Polo Gen 20,Moda,188.91,47.0
+558,"Ganchos para ropa ""paquete de 10 pzs"" Gen 16",Hogar,140.11,139.0
+491,Vestido de Fiesta Gen 14,Moda,575.79,219.0
+315,Camisa Polo Gen 9,Moda,178.73,486.0
+107,Reloj GPS para Correr Gen 3,Deportes,2524.62,225.0
+750,Set de Mancuernas Gen 21,Deportes,1472.44,337.0
+682,Zapatillas de Baloncesto Gen 19,Deportes,1090.62,224.0
+44,Teclado Mecánico Gen 2,Tecnología,804.68,140.0
+111,Auriculares Bluetooth Gen 4,Tecnología,90.84,138.0
+484,Comedor Gen 14,Hogar,7577.31,205.0
+452,Zapatillas Running Gen 13,,809.59,231.0
+102,Set de Mancuernas Gen 3,Deportes,1361.67,99.0
+564,Bolso de Mano Gen 16,Moda,749.55,463.0
+489,Reloj Clásico Gen 14,Moda,937.57,371.0
+328,"Monitor 27"" Gen 10",Tecnología,5135.55,409.0
+752,Tapete de Yoga Gen 21,Deportes,135.73,
+230,Set de Sartenes Gen 7,Hogar,3713.4,92.0
+754,Zapatillas de Baloncesto Gen 21,Deportes,1234.33,22.0
+371,Sofá 3 Plazas Gen 11,Hogar,5894.23,114.0
+555,Colchón King Size Gen 16,Hogar,11503.99,337.0
+585,Mouse Inalámbrico Gen 17,Tecnología,357.96,317.0
+791,Reloj GPS para Correr Gen 22,Deportes,1909.93,212.0
+421,Gafas de Sol Gen 12,Moda,442.83,130.0
+661,Lámpara de Pie Gen 19,Hogar,411.54,394.0
+388,Set de Ropa Interior Gen 11,Moda,72.12,297.0
+37,Laptop gamer Gen 2,Tecnología,14463.43,403.0
+275,Vestido de Fiesta Gen 8,Moda,616.49,340.0
+212,Tapete de Yoga Gen 6,Deportes,145.73,75.0
+155,Sofá 3 Plazas Gen 5,Hogar,6298.74,87.0
+351,Camisa Polo Gen 10,Moda,229.01,334.0
+364,"Monitor 27"" Gen 11",Tecnología,4802.72,31.0
+339,Colchón King Size Gen 10,Hogar,9858.06,190.0
+73,Laptop gamer Gen 3,Tecnología,16479.71,240.0
+69,Balón de Fútbol Oficial Gen 2,Deportes,331.95,412.0
+224,Teclado Mecánico Gen 7,Tecnología,783.95,
+719,Reloj GPS para Correr Gen 20,Deportes,1904.16,62.0
+777,Reloj Clásico Gen 22,Moda,728.13,405.0
+372,Cafetera Espresso Gen 11,Hogar,2248.27,194.0
+594,"Ganchos para ropa ""paquete de 10 pzs"" Gen 17",Hogar,151.33,462.0
+454,Pantalón Denim Gen 13,Moda,192.18,128.0
+291,Auriculares Bluetooth Gen 9,Tecnología,98.22,476.0
+200,Zapatillas Running Gen 6,Moda,1010.53,346.0
+145,Laptop gamer Gen 5,Tecnología,14808.77,
+561,Reloj Clásico Gen 16,Moda,873.23,46.0
+663,Colchón King Size Gen 19,Hogar,11084.74,64.0
+598,Pantalón Denim Gen 17,Moda,151.09,328.0
+769,Lámpara de Pie Gen 22,Hogar,443.92,57.0
+298,Audifonos para Computadora Gen 9,Tecnología,1143.91,115.0
+757,Laptop gamer Gen 22,Tecnología,18392.43,467.0
+533,Bicicleta de Montaña Gen 15,Deportes,9251.67,306.0
+43,Smartwatch Deportivo Gen 2,Tecnología,1098.81,500.0
+508,"Monitor 27"" Gen 15",Tecnología,4694.34,301.0
+582,Cargador tipo C Gen 17,Tecnología,147.57,
+307,Chaqueta de Cuero Gen 9,Moda,1954.59,28.0
+394,Zapatillas de Baloncesto Gen 11,Deportes,1253.86,357.0
+274,Pantalón Denim Gen 8,Moda,190.17,148.0
+408,Cafetera Espresso Gen 12,Hogar,2006.78,76.0
+466,Zapatillas de Baloncesto Gen 13,Deportes,1224.19,59.0
+625,Lámpara de Pie Gen 18,Hogar,404.36,380.0
+736,Comedor Gen 21,Hogar,8870.81,316.0
+109,Laptop gamer Gen 4,Tecnología,19456.62,446.0
+483,Colchón King Size Gen 14,Hogar,10902.68,
+226,Audifonos para Computadora Gen 7,Tecnología,1083.06,273.0
+762,Cargador tipo C Gen 22,Tecnología,159.83,292.0
+398,Jaifon X Gen 12,Tecnología,10629.46,305.0
+370,Audifonos para Computadora Gen 11,Tecnología,1252.34,380.0
+198,"Ganchos para ropa ""paquete de 10 pzs"" Gen 6",Hogar,135.7,248.0
+273,Reloj Clásico Gen 8,Moda,820.37,364.0
+220,"Monitor 27"" Gen 7",Tecnología,5761.19,194.0
+132,Bolso de Mano Gen 4,Moda,729.98,93.0
+34,Zapatillas de Baloncesto,Deportes,1305.56,480.0
+299,Sofá 3 Plazas Gen 9,Hogar,6531.85,383.0
+174,Set de Mancuernas Gen 5,Deportes,1450.13,144.0
+624,Cafetera Espresso Gen 18,Hogar,2212.43,
+386,Cinturón de Piel Gen 11,Moda,85.66,245.0
+355,Tienda de Campaña Gen 10,Deportes,3304.24,417.0
+590,Set de Sartenes Gen 17,Hogar,4098.47,482.0
+708,Bolso de Mano Gen 20,Moda,841.81,252.0
+33,Balón de Fútbol Oficial,Deportes,293.56,244.0
+188,Teclado Mecánico Gen 6,Tecnología,768.02,150.0
+414,"Ganchos para ropa ""paquete de 10 pzs"" Gen 12",Hogar,134.02,428.0
+718,Zapatillas de Baloncesto Gen 20,,1342.27,221.0
+503,Reloj GPS para Correr Gen 14,Deportes,2371.9,478.0
+721,Laptop gamer Gen 21,Tecnología,19412.01,433.0
+263,Sofá 3 Plazas Gen 8,Hogar,6004.18,486.0
+239,Vestido de Fiesta Gen 7,Moda,597.83,490.0
+671,Vestido de Fiesta Gen 19,Moda,490.12,485.0
+189,Mouse Inalámbrico Gen 6,Tecnología,362.75,319.0
+706,Pantalón Denim Gen 20,Moda,161.72,480.0
+346,Pantalón Denim Gen 10,Moda,155.18,446.0
+642,Set de Mancuernas Gen 18,Deportes,1511.48,201.0
+476,Teclado Mecánico Gen 14,Tecnología,724.7,173.0
+62,Cinturón de Piel Gen 2,Moda,106.28,
+735,Colchón King Size Gen 21,Hogar,11112.0,170.0
+83,Sofá 3 Plazas Gen 3,,6890.67,
+412,Comedor Gen 12,Hogar,7880.85,120.0
+478,Audifonos para Computadora Gen 14,Tecnología,1219.87,64.0
+779,Vestido de Fiesta Gen 22,Moda,467.59,462.0
+767,Sofá 3 Plazas Gen 22,Hogar,6568.53,400.0
+116,Teclado Mecánico Gen 4,Tecnología,666.68,339.0
+22,Pantalón Denim,Moda,158.84,44.0
+475,Smartwatch Deportivo Gen 14,Tecnología,1078.64,247.0
+600,Bolso de Mano Gen 17,Moda,784.81,
+20,Zapatillas Running,Moda,827.42,34.0
+778,Pantalón Denim Gen 22,Moda,164.0,98.0
+233,Juego de Toallas Gen 7,Hogar,238.14,431.0
+92,Zapatillas Running Gen 3,Moda,959.6,312.0
+67,Tienda de Campaña Gen 2,Deportes,3670.46,20.0
+432,Raqueta de Tenis Gen 12,Deportes,692.32,
+468,Raqueta de Tenis Gen 13,Deportes,885.63,248.0
+196,Comedor Gen 6,Hogar,7709.26,489.0
+340,Comedor Gen 10,Hogar,8183.02,180.0
+759,Auriculares Bluetooth Gen 22,Tecnología,98.69,462.0
+279,Camisa Polo Gen 8,Moda,220.43,21.0
+635,Vestido de Fiesta Gen 18,Moda,572.63,233.0
+563,Vestido de Fiesta Gen 16,Moda,548.7,52.0
+179,Reloj GPS para Correr Gen 5,Deportes,1983.99,466.0
+627,Colchón King Size Gen 18,Hogar,11951.96,456.0
+392,Tapete de Yoga Gen 11,Deportes,149.23,154.0
+472,"Monitor 27"" Gen 14",Tecnología,6262.28,442.0
+347,Vestido de Fiesta Gen 10,Moda,549.14,297.0
+282,Set de Mancuernas Gen 8,Deportes,1706.7,21.0
+180,Raqueta de Tenis Gen 5,Deportes,814.09,277.0
+527,Vestido de Fiesta Gen 15,Moda,523.05,58.0
+765,Mouse Inalámbrico Gen 22,Tecnología,340.11,214.0
+206,Cinturón de Piel Gen 6,Moda,97.99,236.0
+93,Reloj Clásico Gen 3,Moda,886.93,469.0
+742,Pantalón Denim Gen 21,Moda,180.81,242.0
+172,Set de Ropa Interior Gen 5,Moda,78.23,
+334,Audifonos para Computadora Gen 10,Tecnología,1295.56,
+481,Lámpara de Pie Gen 14,Hogar,445.84,484.0
+574,Zapatillas de Baloncesto Gen 16,Deportes,1187.88,241.0
+211,Tienda de Campaña Gen 6,Deportes,3595.94,485.0
+626,Set de Sartenes Gen 18,Hogar,3788.34,169.0
+348,Bolso de Mano Gen 10,Moda,732.46,400.0
+360,Raqueta de Tenis Gen 10,Deportes,899.83,85.0
+190,Audifonos para Computadora Gen 6,Tecnología,1197.73,420.0
+16,Comedor,Hogar,8968.62,351.0
+356,Tapete de Yoga Gen 10,Deportes,155.63,386.0
+306,"Ganchos para ropa ""paquete de 10 pzs"" Gen 9",Hogar,145.7,156.0
+419,Vestido de Fiesta Gen 12,Moda,503.46,61.0
+331,Smartwatch Deportivo Gen 10,Tecnología,1190.12,283.0
+305,Juego de Toallas Gen 9,Hogar,250.55,399.0
+650,Jaifon X Gen 19,Tecnología,11173.85,122.0
+411,Colchón King Size Gen 12,Hogar,11285.74,491.0
+615,Auriculares Bluetooth Gen 18,Tecnología,106.96,123.0
+445,Lámpara de Pie Gen 13,Hogar,396.32,341.0
+562,Pantalón Denim Gen 16,Moda,146.42,
+244,Set de Ropa Interior Gen 7,Moda,83.42,379.0
+552,Cafetera Espresso Gen 16,Hogar,2677.25,362.0
+618,Cargador tipo C Gen 18,Tecnología,129.4,
+435,Auriculares Bluetooth Gen 13,Tecnología,105.15,189.0
+613,Laptop gamer Gen 18,,16278.82,465.0
+538,Zapatillas de Baloncesto Gen 15,Deportes,1118.76,491.0
+255,Auriculares Bluetooth Gen 8,Tecnología,87.69,423.0
+451,Chaqueta de Cuero Gen 13,Moda,1839.25,
+469,Laptop gamer Gen 14,Tecnología,14588.98,185.0
+387,Camisa Polo Gen 11,Moda,229.02,368.0
+707,Vestido de Fiesta Gen 20,Moda,504.13,410.0
+177,Balón de Fútbol Oficial Gen 5,Deportes,331.29,240.0
+474,Cargador tipo C Gen 14,Tecnología,164.94,429.0
+689,XBOX SERIES X Gen 20,Tecnología,13313.92,175.0
+395,Reloj GPS para Correr Gen 11,Deportes,2323.21,438.0
+539,Reloj GPS para Correr Gen 15,Deportes,2110.17,38.0
+734,Set de Sartenes Gen 21,Hogar,3504.56,113.0
+358,Zapatillas de Baloncesto Gen 10,Deportes,1041.99,252.0
+697,Lámpara de Pie Gen 20,Hogar,452.46,156.0
+303,Colchón King Size Gen 9,Hogar,11868.01,
+553,Lámpara de Pie Gen 16,Hogar,455.6,298.0
+197,Juego de Toallas Gen 6,Hogar,231.03,
+513,Mouse Inalámbrico Gen 15,Tecnología,368.53,500.0
+228,Cafetera Espresso Gen 7,Hogar,2595.17,174.0
+678,Set de Mancuernas Gen 19,Deportes,1574.19,349.0
+100,Set de Ropa Interior Gen 3,Moda,87.41,72.0
+134,Cinturón de Piel Gen 4,Moda,91.64,
+494,Cinturón de Piel Gen 14,Moda,113.9,416.0
+723,Auriculares Bluetooth Gen 21,Tecnología,100.66,194.0
+204,Bolso de Mano Gen 6,Moda,839.14,365.0
+679,Tienda de Campaña Gen 19,Deportes,3642.49,309.0
+492,Bolso de Mano Gen 14,Moda,687.08,45.0
+278,Cinturón de Piel Gen 8,Moda,95.35,36.0
+136,Set de Ropa Interior Gen 4,Moda,81.51,441.0
+216,Raqueta de Tenis Gen 6,Deportes,802.69,35.0
+540,Raqueta de Tenis Gen 15,Deportes,691.37,469.0
+416,Zapatillas Running Gen 12,Moda,770.46,476.0
+129,Reloj Clásico Gen 4,Moda,845.16,44.0
+764,Teclado Mecánico Gen 22,Tecnología,687.95,55.0
+89,Juego de Toallas Gen 3,Hogar,264.46,
+464,Tapete de Yoga Gen 13,Deportes,163.8,290.0
+448,Comedor Gen 13,Hogar,8378.75,276.0
+700,Comedor Gen 20,Hogar,6917.04,435.0
+192,Cafetera Espresso Gen 6,Hogar,2057.74,21.0
+477,Mouse Inalámbrico Gen 14,Tecnología,331.29,466.0
+516,Cafetera Espresso Gen 15,Hogar,2397.92,70.0
+258,Cargador tipo C Gen 8,Tecnología,138.64,207.0
+87,Colchón King Size Gen 3,Hogar,9562.85,19.0
+56,Zapatillas Running Gen 2,Moda,959.16,397.0
+531,Camisa Polo Gen 15,Moda,192.3,
+522,"Ganchos para ropa ""paquete de 10 pzs"" Gen 15",Hogar,169.34,243.0
+52,Comedor Gen 2,Hogar,6831.44,39.0
+321,Balón de Fútbol Oficial Gen 9,Deportes,300.43,378.0
+326,Jaifon X Gen 10,Tecnología,8869.15,146.0
+545,XBOX SERIES X Gen 16,Tecnología,11910.05,287.0
+442,Audifonos para Computadora Gen 13,Tecnología,1252.3,340.0
+35,Reloj GPS para Correr,Deportes,2156.54,392.0
+260,Teclado Mecánico Gen 8,Tecnología,698.77,331.0
+502,Zapatillas de Baloncesto Gen 14,,1186.06,128.0
+13,Lámpara de Pie,Hogar,435.63,
+447,Colchón King Size Gen 13,Hogar,10232.63,50.0
+597,Reloj Clásico Gen 17,Moda,723.51,344.0
+404,Teclado Mecánico Gen 12,Tecnología,778.37,192.0
+746,Cinturón de Piel Gen 21,Moda,94.81,46.0
+672,Bolso de Mano Gen 19,Moda,821.67,121.0
+673,Gafas de Sol Gen 19,Moda,402.57,148.0
+547,Smartwatch Deportivo Gen 16,Tecnología,1062.91,174.0
+519,Colchón King Size Gen 15,Hogar,10576.23,
+38,Jaifon X Gen 2,Tecnología,9434.97,332.0
+649,Laptop gamer Gen 19,Tecnología,16938.15,442.0
+122,Set de Sartenes Gen 4,Hogar,4169.36,430.0
+354,Set de Mancuernas Gen 10,Deportes,1291.59,56.0
+722,Jaifon X Gen 21,Tecnología,11192.7,393.0
+106,Zapatillas de Baloncesto Gen 3,Deportes,1227.34,15.0
+756,Raqueta de Tenis Gen 21,Deportes,813.31,248.0
+48,Cafetera Espresso Gen 2,Hogar,2514.38,469.0
+509,XBOX SERIES X Gen 15,Tecnología,14489.91,78.0
+493,Gafas de Sol Gen 14,,421.64,397.0
+127,Chaqueta de Cuero Gen 4,Moda,1879.87,37.0
+640,Set de Ropa Interior Gen 18,Moda,86.14,
+731,Sofá 3 Plazas Gen 21,Hogar,6861.15,298.0
+316,Set de Ropa Interior Gen 9,Moda,69.88,227.0
+264,Cafetera Espresso Gen 8,Hogar,2265.78,433.0
+737,Juego de Toallas Gen 21,Hogar,244.21,176.0
+238,Pantalón Denim Gen 7,Moda,185.78,60.0
+149,XBOX SERIES X Gen 5,Tecnología,11396.33,466.0
+761,XBOX SERIES X Gen 22,Tecnología,11494.28,452.0
+418,Pantalón Denim Gen 12,Moda,180.95,497.0
+60,Bolso de Mano Gen 2,Moda,892.98,
+490,Pantalón Denim Gen 14,Moda,155.37,447.0
+23,Vestido de Fiesta,Moda,529.47,74.0
+140,Tapete de Yoga Gen 4,Deportes,133.61,72.0
+739,Chaqueta de Cuero Gen 21,Moda,2014.79,316.0
+741,Reloj Clásico Gen 21,Moda,790.38,289.0
+592,Comedor Gen 17,Hogar,8678.69,231.0
+529,Gafas de Sol Gen 15,Moda,399.08,448.0
+657,Mouse Inalámbrico Gen 19,Tecnología,377.03,462.0
+766,Audifonos para Computadora Gen 22,Tecnología,1225.34,153.0
+259,Smartwatch Deportivo Gen 8,Tecnología,1291.46,300.0
+361,Laptop gamer Gen 11,Tecnología,19077.13,378.0
+389,Bicicleta de Montaña Gen 11,Deportes,8121.43,253.0
+632,Zapatillas Running Gen 18,Moda,856.14,19.0
+748,Set de Ropa Interior Gen 21,Moda,74.71,
+774,"Ganchos para ropa ""paquete de 10 pzs"" Gen 22",Hogar,145.52,384.0
+514,Audifonos para Computadora Gen 15,Tecnología,1216.97,301.0
+199,Chaqueta de Cuero Gen 6,Moda,1890.13,473.0
+449,Juego de Toallas Gen 13,Hogar,283.57,288.0
+446,Set de Sartenes Gen 13,Hogar,4557.84,496.0
+21,Reloj Clásico,Moda,966.48,126.0
+341,Juego de Toallas Gen 10,Hogar,260.11,196.0
+438,Cargador tipo C Gen 13,Tecnología,137.61,387.0
+317,Bicicleta de Montaña Gen 9,Deportes,10910.35,481.0
+713,Bicicleta de Montaña Gen 20,Deportes,8723.22,154.0
+100,Set de Ropa Interior Gen 3,Moda,87.41,
+105,Balón de Fútbol Oficial Gen 3,Deportes,289.21,402.0
+215,Reloj GPS para Correr Gen 6,Deportes,2196.96,158.0
+344,Zapatillas Running Gen 10,Moda,951.88,15.0
+410,Set de Sartenes Gen 12,Hogar,3988.39,203.0
+511,Smartwatch Deportivo Gen 15,Tecnología,1325.87,443.0
+368,Teclado Mecánico Gen 11,Tecnología,681.26,82.0
+668,Zapatillas Running Gen 19,Moda,965.37,375.0
+606,Set de Mancuernas Gen 17,Deportes,1491.62,58.0
+166,Pantalón Denim Gen 5,Moda,145.43,376.0
+681,Balón de Fútbol Oficial Gen 19,Deportes,287.75,224.0
+717,Balón de Fútbol Oficial Gen 20,Deportes,273.45,89.0
+333,Mouse Inalámbrico Gen 10,Tecnología,303.88,
+31,Tienda de Campaña,Deportes,3552.67,404.0
+352,Set de Ropa Interior Gen 10,Moda,84.73,69.0
+609,Balón de Fútbol Oficial Gen 17,Deportes,302.58,
+460,Set de Ropa Interior Gen 13,Moda,80.47,100.0
+459,Camisa Polo Gen 13,Moda,223.9,438.0
+463,Tienda de Campaña Gen 13,Deportes,3778.15,389.0
+500,Tapete de Yoga Gen 14,Deportes,150.91,405.0
+18,"Ganchos para ropa ""paquete de 10 pzs""",Hogar,154.05,223.0
+580,"Monitor 27"" Gen 17",Tecnología,5016.14,24.0
+417,Reloj Clásico Gen 12,Moda,763.43,
+359,Reloj GPS para Correr Gen 10,Deportes,2029.77,241.0
+261,Mouse Inalámbrico Gen 8,Tecnología,353.73,59.0
+99,Camisa Polo Gen 3,Moda,194.04,104.0
+576,Raqueta de Tenis Gen 16,Deportes,683.15,397.0
+103,Tienda de Campaña Gen 3,Deportes,3195.43,308.0
+459,Camisa Polo Gen 13,Moda,223.9,438.0
+209,Bicicleta de Montaña Gen 6,Deportes,8340.98,498.0
+638,Cinturón de Piel Gen 18,Moda,86.48,406.0
+108,Raqueta de Tenis Gen 3,Deportes,799.03,270.0
+297,Mouse Inalámbrico Gen 9,Tecnología,349.98,138.0
+583,Smartwatch Deportivo Gen 17,Tecnología,1131.04,54.0
+730,Audifonos para Computadora Gen 21,,1066.5,220.0
+686,Jaifon X Gen 20,Tecnología,10526.54,458.0
+75,Auriculares Bluetooth Gen 3,Tecnología,91.68,353.0
+49,Lámpara de Pie Gen 2,Hogar,509.14,346.0
+68,Tapete de Yoga Gen 2,Deportes,127.67,210.0
+283,Tienda de Campaña Gen 8,Deportes,3645.83,491.0
+345,Reloj Clásico Gen 10,Moda,811.32,
+465,Balón de Fútbol Oficial Gen 13,Deportes,300.32,412.0
+690,Cargador tipo C Gen 20,Tecnología,168.29,253.0
+302,Set de Sartenes Gen 9,Hogar,4376.07,490.0
+725,XBOX SERIES X Gen 21,Tecnología,13118.49,448.0
+183,Auriculares Bluetooth Gen 6,Tecnología,94.3,318.0
+63,Camisa Polo Gen 2,Moda,188.92,312.0
+162,"Ganchos para ropa ""paquete de 10 pzs"" Gen 5",Hogar,166.21,86.0
+151,Smartwatch Deportivo Gen 5,Tecnología,1079.27,304.0
+58,Pantalón Denim Gen 2,Moda,183.55,422.0
+480,Cafetera Espresso Gen 14,Hogar,2589.41,487.0
+467,Reloj GPS para Correr Gen 13,Deportes,2257.29,500.0
+457,Gafas de Sol Gen 13,Moda,394.18,270.0
+770,Set de Sartenes Gen 22,Hogar,4049.19,
+427,Tienda de Campaña Gen 12,Deportes,3347.91,488.0
+301,Lámpara de Pie Gen 9,Hogar,493.75,149.0
+648,Raqueta de Tenis Gen 18,Deportes,857.96,276.0
+486,"Ganchos para ropa ""paquete de 10 pzs"" Gen 14",Hogar,132.74,114.0
+288,Raqueta de Tenis Gen 8,Deportes,705.33,214.0
+318,Set de Mancuernas Gen 9,Deportes,1660.74,
+236,Zapatillas Running Gen 7,Moda,977.25,316.0
+688,"Monitor 27"" Gen 20",Tecnología,5634.9,48.0
+565,Gafas de Sol Gen 16,Moda,404.24,301.0
+88,Comedor Gen 3,Hogar,8847.45,293.0
+727,Smartwatch Deportivo Gen 21,Tecnología,1322.59,100.0
+677,Bicicleta de Montaña Gen 19,Deportes,10433.95,399.0
+232,Comedor Gen 7,Hogar,8680.17,420.0
+534,Set de Mancuernas Gen 15,Deportes,1459.69,
+280,Set de Ropa Interior Gen 8,Moda,84.98,111.0
+744,Bolso de Mano Gen 21,Moda,815.71,
+281,Bicicleta de Montaña Gen 8,Deportes,9044.47,229.0
+142,Zapatillas de Baloncesto Gen 4,Deportes,1347.09,494.0
+423,Camisa Polo Gen 12,Moda,184.04,150.0
+59,Vestido de Fiesta Gen 2,Moda,486.65,12.0
+22,Pantalón Denim,Moda,158.84,44.0
+202,Pantalón Denim Gen 6,Moda,192.93,226.0
+118,Audifonos para Computadora Gen 4,Tecnología,1015.17,296.0
+643,Tienda de Campaña Gen 18,Deportes,3477.66,168.0
+399,Auriculares Bluetooth Gen 12,Tecnología,86.5,
+363,Auriculares Bluetooth Gen 11,Tecnología,97.08,220.0
+431,Reloj GPS para Correr Gen 12,Deportes,2012.07,86.0
+526,Pantalón Denim Gen 15,Moda,181.76,309.0
+2,Jaifon X,Tecnología,10844.47,454.0
+405,Mouse Inalámbrico Gen 12,Tecnología,324.33,188.0
+143,Reloj GPS para Correr Gen 4,Deportes,2140.67,496.0
+247,Tienda de Campaña Gen 7,Deportes,3343.34,
+652,"Monitor 27"" Gen 19",Tecnología,6002.7,200.0
+192,Cafetera Espresso Gen 6,Hogar,2057.74,21.0
+277,Gafas de Sol Gen 8,Moda,423.98,48.0
+55,Chaqueta de Cuero Gen 2,Moda,1957.31,476.0
+107,Reloj GPS para Correr Gen 3,Deportes,2524.62,225.0
+785,Bicicleta de Montaña Gen 22,Deportes,8403.14,385.0
+682,Zapatillas de Baloncesto Gen 19,Deportes,1090.62,224.0
+231,Colchón King Size Gen 7,Hogar,9404.16,158.0
+720,Raqueta de Tenis Gen 20,Deportes,751.52,10.0
+437,XBOX SERIES X Gen 13,Tecnología,13644.99,
+391,Tienda de Campaña Gen 11,Deportes,3283.19,274.0
+755,Reloj GPS para Correr Gen 21,Deportes,1888.55,169.0
+550,Audifonos para Computadora Gen 16,Tecnología,1199.24,
+560,Zapatillas Running Gen 16,Moda,1030.62,285.0
+495,Camisa Polo Gen 14,Moda,211.94,393.0
+571,Tienda de Campaña Gen 16,Deportes,3519.27,476.0
+541,Laptop gamer Gen 16,Tecnología,16336.76,207.0
+524,Zapatillas Running Gen 15,Moda,937.57,36.0
+250,Zapatillas de Baloncesto Gen 7,Deportes,1143.85,87.0
+191,Sofá 3 Plazas Gen 6,Hogar,7462.66,233.0
+119,Sofá 3 Plazas Gen 4,Hogar,5542.2,171.0
+242,Cinturón de Piel Gen 7,Moda,99.47,390.0
+704,Zapatillas Running Gen 20,Moda,884.66,104.0
+85,Lámpara de Pie Gen 3,Hogar,486.64,485.0
+215,Reloj GPS para Correr Gen 6,Deportes,2196.96,158.0
+101,Bicicleta de Montaña Gen 3,Deportes,8205.69,69.0
+229,Lámpara de Pie Gen 7,Hogar,456.53,472.0
+511,Smartwatch Deportivo Gen 15,Tecnología,1325.87,443.0
+66,Set de Mancuernas Gen 2,Deportes,1280.48,
+10,Audifonos para Computadora,Tecnología,1168.7,358.0
+357,Balón de Fútbol Oficial Gen 10,Deportes,330.11,436.0
+403,Smartwatch Deportivo Gen 12,Tecnología,1249.1,41.0
+455,Vestido de Fiesta Gen 13,Moda,617.68,
+171,Camisa Polo Gen 5,Moda,206.33,261.0
+738,"Ganchos para ropa ""paquete de 10 pzs"" Gen 21",Hogar,148.66,159.0
+369,Mouse Inalámbrico Gen 11,Tecnología,328.5,447.0
+788,Tapete de Yoga Gen 22,Deportes,152.39,288.0
+675,Camisa Polo Gen 19,Moda,208.11,278.0
+473,XBOX SERIES X Gen 14,Tecnología,11240.69,487.0
+336,Cafetera Espresso Gen 10,Hogar,2499.57,332.0
+639,Camisa Polo Gen 18,Moda,186.56,80.0
+167,Vestido de Fiesta Gen 5,Moda,546.6,68.0
+383,Vestido de Fiesta Gen 11,Moda,473.8,262.0
+342,"Ganchos para ropa ""paquete de 10 pzs"" Gen 10",Hogar,150.05,232.0
+407,Sofá 3 Plazas Gen 12,Hogar,5628.44,338.0
+46,Audifonos para Computadora Gen 2,Tecnología,1291.76,470.0
+91,Chaqueta de Cuero Gen 3,Moda,2018.08,250.0
+420,Bolso de Mano Gen 12,Moda,913.08,243.0
+256,"Monitor 27"" Gen 8",Tecnología,5684.7,381.0
+121,Lámpara de Pie Gen 4,Hogar,513.79,220.0
+144,Raqueta de Tenis Gen 4,Deportes,707.32,163.0
+163,Chaqueta de Cuero Gen 5,Moda,1934.73,339.0
+488,Zapatillas Running Gen 14,Moda,956.47,84.0
+227,Sofá 3 Plazas Gen 7,Hogar,6246.64,459.0
+373,Lámpara de Pie Gen 11,Hogar,491.4,145.0
+80,Teclado Mecánico Gen 3,Tecnología,729.4,437.0
+165,Reloj Clásico Gen 5,Moda,849.37,212.0
+210,Set de Mancuernas Gen 6,Deportes,1425.16,100.0
+221,XBOX SERIES X Gen 7,Tecnología,12404.22,376.0
+53,Juego de Toallas Gen 2,Hogar,270.75,353.0
+634,Pantalón Denim Gen 18,Moda,174.49,428.0
+185,XBOX SERIES X Gen 6,Tecnología,12649.61,110.0
+257,XBOX SERIES X Gen 8,Tecnología,13406.48,188.0
+601,Gafas de Sol Gen 17,Moda,377.02,
+596,Zapatillas Running Gen 17,Moda,889.39,479.0
+205,Gafas de Sol Gen 6,,420.58,422.0
+426,Set de Mancuernas Gen 12,Deportes,1722.25,297.0
+32,Tapete de Yoga,Deportes,147.6,485.0
+186,Cargador tipo C Gen 6,Tecnología,153.52,397.0
+284,Tapete de Yoga Gen 8,Deportes,141.66,471.0
+248,Tapete de Yoga Gen 7,Deportes,132.65,406.0
+436,"Monitor 27"" Gen 13",Tecnología,6129.85,458.0
+79,Smartwatch Deportivo Gen 3,Tecnología,1062.79,181.0
+384,Bolso de Mano Gen 11,Moda,778.68,353.0
+285,Balón de Fútbol Oficial Gen 8,Deportes,271.74,303.0
+573,Balón de Fútbol Oficial Gen 16,Deportes,295.44,247.0
+337,Lámpara de Pie Gen 10,Hogar,435.61,94.0
+349,Gafas de Sol Gen 10,Moda,376.2,243.0
+460,Set de Ropa Interior Gen 13,Moda,80.47,100.0
+470,Jaifon X Gen 14,Tecnología,11026.26,126.0
+30,Set de Mancuernas,,1507.44,386.0
+86,Set de Sartenes Gen 3,Hogar,3710.25,
+40,"Monitor 27"" Gen 2",Tecnología,5851.86,134.0
+381,Reloj Clásico Gen 11,Moda,777.88,15.0
+114,Cargador tipo C Gen 4,Tecnología,142.21,451.0
+504,Raqueta de Tenis Gen 14,Deportes,877.17,467.0
+660,Cafetera Espresso Gen 19,Hogar,2297.41,207.0
+566,Cinturón de Piel Gen 16,Moda,111.87,485.0
+397,Laptop gamer Gen 12,Tecnología,17028.35,
+235,Chaqueta de Cuero Gen 7,Moda,1981.25,246.0
+506,Jaifon X Gen 15,Tecnología,10446.49,81.0
+439,Smartwatch Deportivo Gen 13,Tecnología,1057.2,257.0
+440,Teclado Mecánico Gen 13,Tecnología,847.1,128.0
+413,Juego de Toallas Gen 12,Hogar,217.8,186.0
+175,Tienda de Campaña Gen 5,Deportes,3554.36,122.0
+312,Bolso de Mano Gen 9,Moda,826.31,81.0
+214,Zapatillas de Baloncesto Gen 6,Deportes,1193.0,
+128,Zapatillas Running Gen 4,Moda,952.06,443.0
+1,Laptop gamer,,16125.1,197.0
+289,Laptop gamer Gen 9,Tecnología,18716.52,
+24,Bolso de Mano,Moda,742.22,139.0
+436,"Monitor 27"" Gen 13",Tecnología,6129.85,458.0
+604,Set de Ropa Interior Gen 17,Moda,82.74,
+770,Set de Sartenes Gen 22,Hogar,4049.19,
+716,Tapete de Yoga Gen 20,Deportes,146.24,278.0
+554,Set de Sartenes Gen 16,Hogar,4602.17,318.0
+461,Bicicleta de Montaña Gen 13,Deportes,9011.12,185.0
+683,Reloj GPS para Correr Gen 19,Deportes,2043.35,
+98,Cinturón de Piel Gen 3,Moda,109.35,180.0
+382,Pantalón Denim Gen 11,,148.12,105.0
+515,Sofá 3 Plazas Gen 15,Hogar,5818.52,123.0
+335,Sofá 3 Plazas Gen 10,Hogar,7022.95,236.0
+110,Jaifon X Gen 4,Tecnología,8781.93,210.0
+173,Bicicleta de Montaña Gen 5,Deportes,9742.39,11.0
+546,Cargador tipo C Gen 16,Tecnología,141.32,208.0
+610,Zapatillas de Baloncesto Gen 17,Deportes,1027.11,278.0
+599,Vestido de Fiesta Gen 17,Moda,470.33,146.0
+324,Raqueta de Tenis Gen 9,Deportes,700.39,14.0
+760,"Monitor 27"" Gen 22",Tecnología,4796.64,360.0
+607,Tienda de Campaña Gen 17,Deportes,3440.91,495.0
+84,Cafetera Espresso Gen 3,Hogar,2598.61,481.0
+786,Set de Mancuernas Gen 22,Deportes,1616.73,205.0
+61,Gafas de Sol Gen 2,Moda,374.96,368.0
+726,Cargador tipo C Gen 21,Tecnología,139.75,27.0
+653,XBOX SERIES X Gen 19,Tecnología,11119.59,246.0
+556,Comedor Gen 16,Hogar,9003.87,43.0
+322,Zapatillas de Baloncesto Gen 9,Deportes,1083.62,293.0
+659,Sofá 3 Plazas Gen 19,Hogar,7119.57,159.0
+292,"Monitor 27"" Gen 9",Tecnología,5991.56,196.0
+21,Reloj Clásico,Moda,966.48,126.0
+425,Bicicleta de Montaña Gen 12,Deportes,8434.78,433.0
+97,Gafas de Sol Gen 3,Moda,434.52,462.0
+644,Tapete de Yoga Gen 18,Deportes,145.77,14.0
+253,Laptop gamer Gen 8,Tecnología,18478.89,261.0
+123,Colchón King Size Gen 4,Hogar,12295.6,42.0
+390,Set de Mancuernas Gen 11,Deportes,1717.39,270.0
+266,Set de Sartenes Gen 8,Hogar,4160.92,247.0
+772,Comedor Gen 22,Hogar,7940.55,91.0
+586,Audifonos para Computadora Gen 17,Tecnología,1285.11,403.0
+170,Cinturón de Piel Gen 5,Moda,106.09,81.0
+674,Cinturón de Piel Gen 19,Moda,112.64,
+178,Zapatillas de Baloncesto Gen 5,Deportes,1308.68,284.0
+72,Raqueta de Tenis Gen 2,Deportes,839.59,484.0
+96,Bolso de Mano Gen 3,Moda,747.75,97.0
+768,Cafetera Espresso Gen 22,Hogar,2132.29,445.0
+379,Chaqueta de Cuero Gen 11,Moda,1667.77,
+467,Reloj GPS para Correr Gen 13,Deportes,2257.29,500.0
+523,Chaqueta de Cuero Gen 15,Moda,2158.48,272.0
+313,Gafas de Sol Gen 9,Moda,399.78,489.0
+300,Cafetera Espresso Gen 9,Hogar,2160.82,15.0
+29,Bicicleta de Montaña,Deportes,8706.09,163.0
+482,Set de Sartenes Gen 14,Hogar,4006.75,248.0
+19,Chaqueta de Cuero,Moda,2067.79,268.0
+269,Juego de Toallas Gen 8,Hogar,274.14,122.0
+728,Teclado Mecánico Gen 21,Tecnología,692.1,470.0
+14,Set de Sartenes,Hogar,3681.42,437.0
+787,Tienda de Campaña Gen 22,Deportes,3880.43,456.0
+251,Reloj GPS para Correr Gen 7,,2072.17,45.0
+517,Lámpara de Pie Gen 15,Hogar,515.68,
+512,Teclado Mecánico Gen 15,Tecnología,664.45,
+542,Jaifon X Gen 16,Tecnología,11153.84,431.0
+222,Cargador tipo C Gen 7,Tecnología,138.61,384.0
+776,Zapatillas Running Gen 22,Moda,768.61,310.0
+9,Mouse Inalámbrico,Tecnología,309.43,158.0
+748,Set de Ropa Interior Gen 21,Moda,74.71,475.0
+530,Cinturón de Piel Gen 15,Moda,96.61,226.0
+314,Cinturón de Piel Gen 9,Moda,105.53,
+695,Sofá 3 Plazas Gen 20,Hogar,6180.59,153.0
+620,Teclado Mecánico Gen 18,Tecnología,859.09,447.0
+784,Set de Ropa Interior Gen 22,Moda,68.23,174.0
+7,Smartwatch Deportivo,Tecnología,1112.85,183.0
+293,XBOX SERIES X Gen 9,Tecnología,13969.2,210.0
+401,XBOX SERIES X Gen 12,Tecnología,13839.0,438.0
+74,Jaifon X Gen 3,Tecnología,9706.05,
+758,Jaifon X Gen 22,Tecnología,9074.22,395.0
+309,Reloj Clásico Gen 9,Moda,778.48,217.0
+505,Laptop gamer Gen 15,Tecnología,17268.43,407.0
+294,Cargador tipo C Gen 9,Tecnología,148.75,454.0
+441,Mouse Inalámbrico Gen 13,Tecnología,363.85,435.0
+203,Vestido de Fiesta Gen 6,Moda,624.58,406.0
+42,Cargador tipo C Gen 2,Tecnología,145.98,330.0
+39,Auriculares Bluetooth Gen 2,Tecnología,105.14,
+90,"Ganchos para ropa ""paquete de 10 pzs"" Gen 3",Hogar,168.43,89.0
+680,Tapete de Yoga Gen 19,Deportes,136.46,188.0
+575,Reloj GPS para Correr Gen 16,Deportes,2046.46,226.0
+76,"Monitor 27"" Gen 3",Tecnología,5588.43,115.0
+687,Auriculares Bluetooth Gen 20,Tecnología,113.62,111.0
+138,Set de Mancuernas Gen 4,Deportes,1637.94,11.0
+8,Teclado Mecánico,Tecnología,860.2,460.0
+622,Audifonos para Computadora Gen 18,Tecnología,1261.32,182.0
+528,Bolso de Mano Gen 15,Moda,809.1,114.0
+133,Gafas de Sol Gen 4,Moda,455.14,215.0
+4,"Monitor 27""",Tecnología,6119.49,196.0
+253,Laptop gamer Gen 8,Tecnología,18478.89,261.0
+581,XBOX SERIES X Gen 17,Tecnología,12700.92,120.0
+647,Reloj GPS para Correr Gen 18,Deportes,2496.64,439.0
+676,Set de Ropa Interior Gen 19,,73.06,79.0
+184,"Monitor 27"" Gen 6",Tecnología,4897.06,
+254,Jaifon X Gen 8,Tecnología,10902.76,399.0
+783,Camisa Polo Gen 22,Moda,198.22,132.0
+537,Balón de Fútbol Oficial Gen 15,Deportes,286.12,265.0
+343,Chaqueta de Cuero Gen 10,Moda,1647.25,152.0
+385,Gafas de Sol Gen 11,Moda,382.34,
+378,"Ganchos para ropa ""paquete de 10 pzs"" Gen 11",Hogar,169.78,211.0
+781,Gafas de Sol Gen 22,Moda,434.33,
+290,Jaifon X Gen 9,Tecnología,9294.12,140.0
+636,Bolso de Mano Gen 18,Moda,731.15,178.0
+520,Comedor Gen 15,Hogar,7200.77,389.0
+619,Smartwatch Deportivo Gen 18,Tecnología,1137.96,302.0
+782,Cinturón de Piel Gen 22,Moda,92.17,327.0
+487,Chaqueta de Cuero Gen 14,Moda,2147.31,372.0
+561,Reloj Clásico Gen 16,Moda,873.23,46.0
+577,Laptop gamer Gen 17,Tecnología,17740.66,440.0
+570,Set de Mancuernas Gen 16,Deportes,1513.3,236.0
+662,Set de Sartenes Gen 19,Hogar,3556.26,150.0
+740,Zapatillas Running Gen 21,Moda,968.15,
+194,Set de Sartenes Gen 6,Hogar,4614.63,399.0
+714,Set de Mancuernas Gen 20,Deportes,1688.8,278.0
+535,Tienda de Campaña Gen 15,Deportes,3485.02,152.0
+745,Gafas de Sol Gen 21,Moda,434.01,169.0
+496,Set de Ropa Interior Gen 14,Moda,75.1,298.0
+462,Set de Mancuernas Gen 13,Deportes,1277.18,213.0
+614,Jaifon X Gen 18,Tecnología,8739.01,126.0
+25,Gafas de Sol,Moda,371.91,263.0
+567,Camisa Polo Gen 16,Moda,205.63,240.0
+789,Balón de Fútbol Oficial Gen 22,Deportes,335.6,235.0
+715,Tienda de Campaña Gen 20,Deportes,3130.87,215.0
+320,Tapete de Yoga Gen 9,Deportes,133.43,25.0
+308,Zapatillas Running Gen 9,Moda,945.1,302.0
+699,Colchón King Size Gen 20,Hogar,11051.12,166.0
+749,Bicicleta de Montaña Gen 21,Deportes,10432.26,475.0
+559,Chaqueta de Cuero Gen 16,Moda,2032.98,307.0
+141,Balón de Fútbol Oficial Gen 4,Deportes,323.45,
+424,Set de Ropa Interior Gen 12,Moda,68.04,12.0
+669,Reloj Clásico Gen 19,Moda,770.98,404.0
+615,Auriculares Bluetooth Gen 18,Tecnología,106.96,123.0
+430,Zapatillas de Baloncesto Gen 12,Deportes,1147.9,141.0
+664,Comedor Gen 19,Hogar,7985.26,35.0
+120,Cafetera Espresso Gen 4,Hogar,2549.6,409.0
+353,Bicicleta de Montaña Gen 10,Deportes,9560.4,34.0
+591,Colchón King Size Gen 17,Hogar,10922.21,246.0
+169,Gafas de Sol Gen 5,Moda,380.21,496.0
+327,Auriculares Bluetooth Gen 10,Tecnología,103.58,65.0
+113,XBOX SERIES X Gen 4,Tecnología,14306.31,382.0
+181,Laptop gamer Gen 6,Tecnología,19040.34,182.0
+444,Cafetera Espresso Gen 13,Hogar,2261.85,
+476,Teclado Mecánico Gen 14,Tecnología,724.7,173.0
+557,Juego de Toallas Gen 16,Hogar,222.75,318.0
+338,Set de Sartenes Gen 10,Hogar,4407.02,
+612,Raqueta de Tenis Gen 17,Deportes,845.14,14.0
+670,Pantalón Denim Gen 19,Moda,144.7,
+148,"Monitor 27"" Gen 5",Tecnología,6077.76,261.0
+77,XBOX SERIES X Gen 3,Tecnología,13525.14,241.0
+331,Smartwatch Deportivo Gen 10,Tecnología,1190.12,283.0
+763,Smartwatch Deportivo Gen 22,Tecnología,1130.28,464.0
+17,Juego de Toallas,Hogar,248.88,31.0
+88,Comedor Gen 3,Hogar,8847.45,293.0
+525,Reloj Clásico Gen 15,Moda,785.99,133.0
+374,Set de Sartenes Gen 11,Hogar,4295.89,187.0
+304,Comedor Gen 9,Hogar,8576.52,443.0
+595,Chaqueta de Cuero Gen 17,,2120.96,22.0
+57,Reloj Clásico Gen 2,Moda,817.52,26.0
+732,Cafetera Espresso Gen 21,Hogar,2672.57,73.0
+176,Tapete de Yoga Gen 5,Deportes,170.15,39.0
+743,Vestido de Fiesta Gen 21,Moda,570.71,397.0
+152,Teclado Mecánico Gen 5,Tecnología,838.3,
+400,"Monitor 27"" Gen 12",Tecnología,4846.44,96.0
+159,Colchón King Size Gen 5,,10532.33,271.0
+406,Audifonos para Computadora Gen 12,Tecnología,1335.46,336.0
+217,Laptop gamer Gen 7,Tecnología,19156.33,15.0
+623,Sofá 3 Plazas Gen 18,Hogar,6346.06,114.0
+218,Jaifon X Gen 7,Tecnología,10848.39,248.0
+310,Pantalón Denim Gen 9,Moda,148.33,421.0
+628,Comedor Gen 18,Hogar,8756.42,408.0
+696,Cafetera Espresso Gen 20,Hogar,2276.22,491.0
+402,Cargador tipo C Gen 12,Tecnología,146.73,170.0
+453,Reloj Clásico Gen 13,Moda,871.27,15.0
+161,Juego de Toallas Gen 5,Hogar,256.79,459.0
+78,Cargador tipo C Gen 3,Tecnología,137.63,335.0
+724,"Monitor 27"" Gen 21",Tecnología,4961.15,352.0
+103,Tienda de Campaña Gen 3,,3195.43,308.0
+433,Laptop gamer Gen 13,Tecnología,16678.67,
+775,Chaqueta de Cuero Gen 22,Moda,1709.34,174.0
+319,Tienda de Campaña Gen 9,Deportes,3252.24,98.0
+314,Cinturón de Piel Gen 9,,105.53,350.0

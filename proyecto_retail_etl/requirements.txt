@@ -1,15 +1,27 @@
-pandas
-numpy
-scikit-learn
-requests
-beautifulsoup4
-pymongo
-matplotlib
-seaborn
-plotly
-pyarrow
-openpyxl
-lxml
+# Dependencias Core para Manipulación y Análisis de Datos
+pandas>=2.0.0
+numpy>=1.24.0
 
-para pruebas en entorno virtual:
-pip install pandas numpy scikit-learn requests beautifulsoup4 pymongo matplotlib seaborn plotly pyarrow openpyxl lxml
+# Acceso y Extracción de Fuentes Externas (API y Web Scraping)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Conectores de Bases de Datos NoSQL
+pymongo>=4.5.0
+
+# Modelado Estadístico y Aprendizaje Automático (PCA)
+scikit-learn>=1.3.0
+
+# Visualización Gráfica e Interactividad
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Almacenamiento Eficiente y Motores de Big Data
+pyarrow>=12.0.0
+
+# Para instalar las dependencias, ejecutar:
+pip install -r requirements.txt
+
+# Alternativamente, para instalar directamente sin el archivo de requisitos:
+pip install pandas numpy requests beautifulsoup4 pymongo scikit-learn matplotlib seaborn plotly pyarrow
