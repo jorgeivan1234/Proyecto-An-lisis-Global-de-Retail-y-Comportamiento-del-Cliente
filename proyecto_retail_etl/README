@@ -61,19 +61,22 @@ Este entorno de producción ha sido empaquetado para evitar conflictos de softwa
 ### Requisitos Previos
 * Python 3.9 o superior instalado de forma local.
 
-### Comandos de Instalación Rápidos
-Abre tu terminal en la raíz de la carpeta del proyecto y ejecuta el siguiente bloque:
 
+### Ejecución Manual
+Para inicializar el proyecto paso a paso desde la terminal de PowerShell, asegúrate de estar en la raíz de la carpeta del proyecto y ejecuta el siguiente bloque de comandos:
+
+```powershell
+# 1. Crear el entorno virtual aislado (.venv)
 python -m venv .venv
-.\.venv\Scripts\pip install -r .\proyecto_retail_etl\requirements.txt
+
+# 2. Activar el entorno virtual en la terminal actual
 .\.venv\Scripts\Activate.ps1
 
-```bash
-# 1. Instalar todas las dependencias requeridas de un solo golpe
-pip install -r requirements.txt
+# 3. Instalar todas las dependencias y motores requeridos de un solo golpe
+pip install -r .\proyecto_retail_etl\requirements.txt
 
-# 2. Inicializar la simulación de bases de datos y archivos base
-python simulador_datos.py
+# 4. Inicializar la simulación de bases de datos y archivos crudos
+python .\proyecto_retail_etl\scripts_python\simulador_datos.py
 
-# 3. Ejecutar el pipeline ETL completo y generar las visualizaciones analíticas
-python orquestador.py
+# 5. Ejecutar el pipeline ETL completo y generar las visualizaciones analíticas
+python .\proyecto_retail_etl\scripts_python\orquestador.py
