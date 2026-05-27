@@ -64,6 +64,10 @@ Este entorno de producción ha sido empaquetado para evitar conflictos de softwa
 ### Comandos de Instalación Rápidos
 Abre tu terminal en la raíz de la carpeta del proyecto y ejecuta el siguiente bloque:
 
+python -m venv .venv
+.\.venv\Scripts\pip install -r .\proyecto_retail_etl\requirements.txt
+.\.venv\Scripts\Activate.ps1
+
 ```bash
 # 1. Instalar todas las dependencias requeridas de un solo golpe
 pip install -r requirements.txt
